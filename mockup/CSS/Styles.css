@@ -1,0 +1,85 @@
+.DIOS{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.semi_padre{
+    background-image: url(../IMAGES/Fondo_website/mr_olympia.png);
+    width: 1366px;
+    height: 600px;
+}
+.menu-1 p{
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+    color: white;
+}
+.padre{
+    display: flex;
+}
+.logo{
+    display: flex;
+    height: 68px;
+    padding-top: 12px;
+    padding-right: 17px;
+}
+.frase{
+    padding-left: 8px;
+}
+.linea{
+    width: 5.5px;
+    height: 67px;
+    background: #eb272b;
+    rotate: 162deg;
+}
+#menu {
+    display: flex;
+    justify-content: end;
+    align-items:flex-end;
+    height: 50px;
+    padding: 10px;   
+}
+.menu-item {
+    background-color: #eb272b;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+} 
+.menu-item:hover {
+    background-color: #000;
+    color: #fff;
+}
+.menu-item{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* TEXTO Y TITULOS */
+
+.DIos{
+    display: flex;
+    justify-content: center;
+    
+    color: white;
+    font-size: 25px;
+    padding-bottom: 1.5em;
+}
+.texto p{
+    color: white;
+}
+.texto h2{
+    color: #eb272b;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contenido p{
+    font-size: 17px;
+}
